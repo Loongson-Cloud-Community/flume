@@ -44,9 +44,9 @@ limitations under the License.
          but we need to specify HTTPS so that Maven won't ignore the repo.
     -->
     <repository>
-      <id>maven-twttr</id>
-      <name>Twitter Public Maven Repo</name>
-      <url>https://maven.twttr.com</url>
+      <id>maven-twttr-ali</id>
+      <name>Twitter Public Maven Repo replace with ali</name>
+      <url>http://maven.aliyun.com/nexus/content/groups/public</url>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
@@ -56,9 +56,9 @@ limitations under the License.
          order to keep Maven using the repo.
     -->
     <repository>
-      <id>maven-restlet</id>
-      <name>Restlet Public Maven Repo</name>
-      <url>https://maven.restlet.org</url>
+      <id>maven-restlet-ali</id>
+      <name>Restlet Public Maven Repo replace with ali</name>
+      <url>http://maven.aliyun.com/nexus/content/groups/public</url>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>

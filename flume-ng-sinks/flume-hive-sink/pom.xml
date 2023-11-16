@@ -47,9 +47,10 @@ limitations under the License.
         <updatePolicy>always</updatePolicy>
         <checksumPolicy>warn</checksumPolicy>
       </releases>
-      <id>conjars</id>
-      <name>Conjars</name>
-      <url>https://conjars.org/repo</url>
+      <id>conjars-ali</id>
+      <name>Conjars-ali</name>
+      <!-- url>http://maven.aliyun.com/nexus/content/groups/public</url -->
+      <url>https://repository.mapr.com/nexus/content/groups/mapr-public/conjars/</url>
       <layout>default</layout>
     </repository>
   </repositories>
